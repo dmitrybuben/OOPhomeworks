@@ -1,9 +1,15 @@
 package sem1hw1;
 
-public class People {
-    String name;
-    String surname;
-    int age;
+public class Person {
+    private String name;
+    private String surname;
+    private int age;
+
+    public Person(String name, String surname, int age) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+    }
 
     public String getName() {
         return name;
@@ -17,18 +23,13 @@ public class People {
         return age;
     }
 
-    public People(String name, String surname, int age) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-    }
-
     @Override
     public String toString() {
-        return "People{" +
+        return "Person{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", age=" + age +
                 '}';
     }
+
 }
