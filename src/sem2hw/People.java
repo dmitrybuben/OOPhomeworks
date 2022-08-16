@@ -1,10 +1,10 @@
 package sem2hw;
 
 public abstract class People {
-    String name;
-    String surname;
-    int age;
-    AnimalAction animalAction;
+    protected String name;
+    protected String surname;
+    protected int age;
+    protected AnimalAction animalAction;
 
     public People(String name, String surname, int age, AnimalAction animalAction) {
         this.name = name;

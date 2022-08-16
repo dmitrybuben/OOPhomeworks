@@ -6,6 +6,7 @@ public abstract class Animal {
     public Animal(String name) {
         this.name = name;
     }
+
     public abstract void move();
     public abstract void sound();
     public abstract void eat();
