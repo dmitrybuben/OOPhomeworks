@@ -1,6 +1,6 @@
 package sem2hw;
 
-public class Hamster implements AnimalAction{
+public class Hamster implements PetReachable {
     @Override
     public void move() {
         System.out.println("tic-tic");
