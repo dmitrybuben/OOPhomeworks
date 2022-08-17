@@ -1,11 +1,11 @@
 package sem2hw;
 
-public class Woman extends People {
+public class Woman extends Person {
 
-    public Woman(String name, String surname, int age, AnimalAction animalAction) {
-        super(name, surname, age, animalAction);
+    public Woman(String name, String surname, int age, PetReachable petReachable) {
+        super(name, surname, age, petReachable);
     }
     public void callAnimal(){
-        animalAction.sound();
+        petReachable.sound();
     }
 }

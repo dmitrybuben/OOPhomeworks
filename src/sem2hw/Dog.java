@@ -1,6 +1,6 @@
 package sem2hw;
 
-public class Dog implements AnimalAction {
+public class Dog implements PetReachable {
 
     @Override
     public void move() {
