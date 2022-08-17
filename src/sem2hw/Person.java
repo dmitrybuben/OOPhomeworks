@@ -4,6 +4,7 @@ public abstract class Person {
     protected String name;
     protected String surname;
     protected int age;
+    // Указываем родительский интерфейс для всех животных
     protected PetReachable petReachable;
 
     public Person(String name, String surname, int age, PetReachable petReachable) {
